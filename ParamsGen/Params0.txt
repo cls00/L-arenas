@@ -1,0 +1,12 @@
+50 - Arena Size
+3 - Number of Patches
+10 - Initial Food
+0.069 - Chances of food spawning per tick
+105 - Energy provided by each food blck
+400 - Minimum Energy Required to create a new clone
+50 - Clone energy cost
+50 - Starting Energy
+1.0 - Cost of activities like moving or decoding genome
+10 - Radius of the neighbourhood
+0.032 - Agent's Mutation Rate
+oscillating - Food spawning function

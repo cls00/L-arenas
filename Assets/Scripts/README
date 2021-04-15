@@ -1,0 +1,7 @@
+RunSim is attached to the scene as a whole, and controls spawning of each generation, manages connections between agents, and writes data.
+
+The following scripts are attached to each agent:
+Genome - contains the gene sequence
+Lifecycle - controls birth, death, and reproduction of the agent
+AgentMotion - controls agent motion, including setting targets to move towards
+CollectFood - manages collection, digestion, and sharing of food

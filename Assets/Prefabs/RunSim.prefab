@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4044069196206255966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4044069196206255961}
+  - component: {fileID: 4044069196206255965}
+  - component: {fileID: 4044069196206255960}
+  - component: {fileID: 4044069196206256039}
+  m_Layer: 0
+  m_Name: RunSim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4044069196206255961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4044069196206255966}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4044069196206255965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4044069196206255966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1681fc291d9cf04bad874b9c5b6b476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseParameterFile: 0
+  FoodPrefab: {fileID: 9099863658392345095, guid: 544e8f6448fd0184ca382c0744b15fdb, type: 3}
+  AgentPrefab: {fileID: 1236815093707009007, guid: 150663a2ce6913b4496173d1a88aef7f, type: 3}
+  SArenaPrefab: {fileID: 67220258203233588, guid: 4bce83dafdc1c894ab29128e3dc78f42, type: 3}
+  AgentMat: {fileID: 2100000, guid: 5414b25e503f22744bb68bac2ca48b3d, type: 2}
+  writepath: experiment.csv
+  writepathPopulation: population.csv
+  writepathConns: connections.csv
+  arenaSize: 50
+  patchNum: 4
+  arenasPerRow: 1
+  arenaSeparator: 20
+  foodAmount: 12
+  foodProb: 0.05
+  foodRespawn: basic
+  agentNum: 20
+  mutationRate: 0.05
+  energyPerFoodBlock: 100
+  minClonePoints: 250
+  startingPoints: 50
+  cloningPointLoss: 50
+  pointLoss: 1
+  nearestRadius: 10
+  agentCounter: 0
+  connectionsViewMode: 1
+  agentColourMode: 0
+--- !u!114 &4044069196206255960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4044069196206255966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adea9da986c40844ab1873899e4f76d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4044069196206256039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4044069196206255966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e5d05a073d2b845b0cebbe4afee147, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
